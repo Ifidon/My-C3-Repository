@@ -1,5 +1,13 @@
+body {
+	margin: 0px;
+
+	padding: 0px;
+}
+
+* {box-sizing: border-box;}
+
 section {background: grey;
-border: solid black;
+border: 1px solid black;
 margin: 25px;
 }
 
@@ -8,7 +16,7 @@ h1 {text-align: center}
 h3 {margin: 0px;
 padding: 0px;
 float: right;
-border: solid black;
+border: 1px solid black;
 width: 120px;
 text-align: center;
 }
@@ -24,13 +32,26 @@ margin: 20px;
 
 #h3 {background: brown}
 
-@media (min-width: 1200px) {
+@media (min-width: 992px) {
 
-	section {width: 29%;}
+	section {width: 27%;}
 
-	#s1, #s2, #s3 {float: left}
+	section{float: left}
 }
 
-@media (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
+
+	#s1, #s2 {width: 40%;}
+
+	#s3 {width: 85%;}
+
+	section {float: left;}
+}	
+	
+
+@media (max-width: 767px) {
+
 	section {width: 80%;}
+
+	section {float: left;}
 }
