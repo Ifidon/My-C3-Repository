@@ -1,0 +1,32 @@
+section {background: grey;
+border: solid black;
+margin: 25px;
+}
+
+header {text-align: center}
+
+h3 {margin: 0px;
+padding: 0px;
+float: right;
+border: solid black;
+width: 120px;
+text-align: center;
+}
+
+p {
+	clear: both;
+margin: 20px;
+}
+
+#h1 {background: pink;}
+
+#h2 {background: #ff0000}
+
+#h3 {background: brown}
+
+@media (min-width: 1200px) {
+
+	section {width: 29%;}
+
+	#s1, #s2, #s3 {float: left}
+}
