@@ -3,7 +3,7 @@ border: solid black;
 margin: 25px;
 }
 
-header {text-align: center}
+h1 {text-align: center}
 
 h3 {margin: 0px;
 padding: 0px;
@@ -29,4 +29,8 @@ margin: 20px;
 	section {width: 29%;}
 
 	#s1, #s2, #s3 {float: left}
+}
+
+@media (max-width: 991px) {
+	section {width: 80%;}
 }
